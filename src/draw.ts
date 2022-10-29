@@ -1,5 +1,6 @@
+import { getNodes } from 'helpers/getNodes';
+
 import { arrayToSort, colors, isDebug, wrapper } from './config';
-import { getNodes } from './helpers';
 
 const { getArray } = arrayToSort;
 

@@ -1,7 +1,7 @@
 import { drawGraphInstantly, drawTimer } from 'draw';
 
-import { getNodes } from 'helpers';
 import { drawNodes } from 'helpers/drawNodes';
+import { getNodes } from 'helpers/getNodes';
 
 let resizeTimer: ReturnType<typeof window.setTimeout>;
 

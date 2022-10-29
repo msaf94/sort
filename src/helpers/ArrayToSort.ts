@@ -1,5 +1,3 @@
-import { arrayToSort } from 'config';
-
 export interface ArrayToSort {
     array: number[];
     size: number;

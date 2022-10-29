@@ -2,7 +2,7 @@ import { arrayToSort, id, wrapper as wrapperConfig } from 'config';
 import { sort } from 'draw';
 import { init } from 'index';
 
-import { getNodes } from 'helpers';
+import { getNodes } from './getNodes';
 
 function drawWrapperNode() {
     const node = document.createElement('main');

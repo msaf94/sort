@@ -1,4 +1,4 @@
-import { id } from './config';
+import { id } from 'config';
 
 export function getNodes() {
     return {
